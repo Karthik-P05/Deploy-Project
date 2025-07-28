@@ -46,5 +46,6 @@ A web-based Library Management System built with Django that allows librarians t
 
 🧑‍💻 Author
      Karthik P
+     
      karthikp0511@gmail.com
 
