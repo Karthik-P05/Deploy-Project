@@ -15,6 +15,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.db.models import Case, When, Value, IntegerField
 import json
 import razorpay
+from django.views.decorators.csrf import csrf_protect
 
 
 # Create your views here.
@@ -96,7 +97,7 @@ def member_reg(request):
         return render(request,'home-front-page.html')
         
         
-        
+    
 def logins(request):
     if request.method=='POST':
         USERNAME=request.POST['username']
